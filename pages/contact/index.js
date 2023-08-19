@@ -30,7 +30,7 @@ const Contact = () => {
    href={motionform} onSubmit={sendEmail}      
 */
   return (
-      <div className="h-full bg-primary/30">
+      <div className="h-full bg-primary/30 mt-[40px]">
         <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full" >
            {/* text  && form*/}
           <div className="flex flex-col w-full max-w-[700px]">
@@ -41,7 +41,7 @@ const Contact = () => {
               exit="hidden"
               className="h2 text-center mb-12">
               Vamos <span className="text-accent">   Hablar.</span><br></br>
-              <p className="text-accent  text-lg">Formulario desabilitado por el momento digirirse a walterdevcontact@gmail.com </p>
+              <p className="text-accent  text-lg">Formulario desabilitado por ahora contactar a walterdevcontact@gmail.com </p>
             </motion.h2>
             {/* form */}
             
