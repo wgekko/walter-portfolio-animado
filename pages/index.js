@@ -16,13 +16,12 @@ import {fadeIn} from '../variants';
 
 const Home = () => {
   return (
-  <div className="bg-primary/60 h-full mt-[50px]">
+  <div className="bg-primary/60 h-full">
     {/* text*/}
     <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-40 
-        xl:text-left h-full container mx-auto"> 
+        <div className="text-center flex flex-col justify-center xl:pt-40  xl:text-left h-full container mx-auto "> 
           {/* title*/}
-          <h1 className="h1"> 
+          <h1 className="h1 mt-4"> 
             Transformando Ideas<br/> Hacia la {'  '}
             <spam className="text-accent"> Realidad Digital</spam> 
           </h1> 
@@ -32,7 +31,7 @@ const Home = () => {
           initial="hidden" 
           animate="show" 
           exit="hidden"
-          className="max-w-sm xl:max-w-xl mx-auto xl-mx-0 mb-10 xl:mb-16 ml-[90px]"> 
+          className="max-w-sm xl:max-w-xl mx-auto xl-mx-0 mb-10 xl:mb-16 ml-[80px]"> 
               Orientado en la innovación digital: Convierto conceptos en soluciones concretas mediante la tecnología, canalizando la creatividad para dar forma a ideas que resuenan en el mundo digital y generan resultados significativos para todos los involucrados.
           </motion.p>
           {/* btn */}

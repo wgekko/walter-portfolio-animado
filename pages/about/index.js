@@ -180,7 +180,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return( 
-    <div className="h-full  bg-primary/30 py-32 text-center xl:text-left  mt-[50px]">
+    <div className="h-full  bg-primary/30 py-32 text-center xl:text-left ">
       <Circles/>
       {/* avatar img*/}
       <motion.div 
@@ -191,7 +191,7 @@ const About = () => {
       className="hidden xl:flex absolute bottom-0 -left-[370px]"> 
         <Avatar/>
       </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">  
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 mt-[35px]">  
           {/* texto*/}
           <div className='flex-1 flex flex-col justify-center '>
            <motion.h2 
