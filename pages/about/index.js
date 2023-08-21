@@ -199,7 +199,7 @@ const About = () => {
             initial="hidden" 
             animate="show" 
             exit="hidden" 
-           className='h2'>Desafios <span className=' text-accent'>cautivadores</span> dan nacimiento a magnificas soluciones digitales</motion.h2>    
+           className='h2'>Fascinantes <span className=' text-accent'>Desafíos</span> dan origen a soluciones digitales magnificas</motion.h2>    
            <motion.p 
             variants={fadeIn('right', 0.4)} 
             initial="hidden" 

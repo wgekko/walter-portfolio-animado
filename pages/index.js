@@ -22,7 +22,7 @@ const Home = () => {
         <div className="text-center flex flex-col justify-center xl:pt-40  xl:text-left h-full container mx-auto "> 
           {/* title*/}
           <h1 className="h1 mt-4"> 
-            Transformando Ideas<br/> Hacia la {'  '}
+           Convirtiendo Ideas<br/> en {'  '}
             <spam className="text-accent"> Realidad Digital</spam> 
           </h1> 
            {/* subtitle*/}  
@@ -31,7 +31,7 @@ const Home = () => {
           initial="hidden" 
           animate="show" 
           exit="hidden"
-          className="max-w-sm xl:max-w-xl mx-auto xl-mx-0 mb-10 xl:mb-16 ml-[80px]"> 
+          className="max-w-sm xl:max-w-xl mx-left xl-mx-0 mb-10 xl:mb-16 "> 
               Orientado en la innovación digital: Convierto conceptos en soluciones concretas mediante la tecnología, canalizando la creatividad para dar forma a ideas que resuenan en el mundo digital y generan resultados significativos para todos los involucrados.
           </motion.p>
           {/* btn */}
@@ -43,7 +43,7 @@ const Home = () => {
           initial="hidden" 
           animate="show" 
           exit="hidden"
-          className="hidden xl:flex" >
+          className="hidden xl:flex xl:mb-32" >
             <ProjectsBtn /> 
           </motion.div>
         </div>       
