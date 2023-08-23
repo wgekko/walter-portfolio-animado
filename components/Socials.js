@@ -33,13 +33,13 @@ const onButtonClick = () => {
 const Socials = () => {
   return(   
   <div className="flex items-center gap-x-5 text-2xl">
-    <Link  href={'https://www.linkedin.com/in/walter-gomez-fullstack-developer-jr-java-python-adm-finanzas/'}  target="_blank" className="hover:text-accent transition-all duration-300" >
+    <Link  href={'https://www.linkedin.com/in/walter-gomez-fullstack-developer-java-python-adm-finanzas/'}  target="_blank" className="hover:text-accent transition-all duration-300" >
       <RiLinkedinBoxFill />
     </Link>     
     <Link  href={'https://github.com/wgekko'}  target="_blank" className="hover:text-accent transition-all duration-300" >
       <RiGithubFill />
     </Link>  
-    <Link  href={'https://discord.com/wgekko'} target="_blank" className="hover:text-accent transition-all duration-300" >
+    <Link  href={'https://discord.gg/VXdZemCQ'} target="_blank" className="hover:text-accent transition-all duration-300" >
       <RiDiscordFill />
     </Link>  
     <Link  href={''} onClick={onButtonClick} className="hover:text-accent transition-all duration-300" >      
