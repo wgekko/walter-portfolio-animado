@@ -18,18 +18,20 @@ import {
 const onButtonClick = () => {
   // using Java Script method to get PDF file
   fetch('/Walter_Gomez_Resume.pdf').then(response => {
+    console.log(response)
       response.blob().then(blob => {
           // Creating new object of PDF file
           const fileURL = window.URL.createObjectURL(blob);
           // Setting various property values
           let alink = document.createElement('a');
           alink.href = fileURL;
-          window.open(fileURL, '_blank'); 
+          alink.target = '_blank';
           alink.download = 'Walter_Gomez_Resume.pdf';
           alink.click();
       })
   })
 }
+
 
 const Socials = () => {
   return(   
